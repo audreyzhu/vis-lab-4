@@ -1,0 +1,43 @@
+
+body {
+    margin-left: 70px;
+    margin-bottom: 70px;
+}
+/* line styles */
+.axis path,
+.axis line { 
+	fill: none;
+	stroke: black;
+	shape-rendering: crispEdges;
+}
+
+/* labels */
+.axis text {
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+.ylabel {
+    font-family: sans-serif;
+	font-size: 14px;
+    writing-mode: vertical-lr;
+}
+
+.xlabel {
+    font-family: sans-serif;
+	font-size: 14px;
+}
+
+/*tooltip format*/
+.tooltip{
+	position: fixed;
+	display: none;
+	font-family: sans-serif;
+	font-size: 12px;
+	width: 150px;
+	background-color: black;
+	opacity: 0.7;
+	color: white;
+	border-radius: 6px;
+	padding: 5px 5px 5px 5px;
+  }
